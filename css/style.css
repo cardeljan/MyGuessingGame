@@ -1,0 +1,91 @@
+/* remove orange box outline around number input */
+input:focus {
+    outline: none;
+}
+
+body {
+    background-image: url('../img/numbersbackground.jpeg');
+}
+
+#app {
+    width: 70%;
+    height: 500px;
+    margin: 75px auto;
+    padding: 10px 10px;
+    border-radius: 50px;
+    background-color: rgba(256, 256, 256, 0.88);
+}
+
+html {
+    box-sizing: 'border-box';
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    display: inline;
+    width: 300px;
+    height: 100px;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: rgba(255, 255, 255, 0.83);
+    position: fixed;
+    bottom: 0;
+}
+
+.guess {
+    display: inline;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 10px;
+    font-size: 60px;
+    padding: 0px 25px;
+    margin: 10px 2px 10px 2px;
+    box-shadow: 5px 5px;
+}
+
+#input-parent {
+    position: relative;
+    /* set margin for top (% of width), right and left, and bottom (three params) */
+    margin: 5% auto 50px;
+    width: 160px;
+}
+
+#players-input {
+    /* bor-rad of 50% and setting width=height ==> circle */
+    border-radius: 50%;
+    border-width: 5px;
+    width: 140px;
+    height: 140px;
+    font-size: 60px;
+    font-style: oblique; 
+}
+
+#submit {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 105px;
+}
+
