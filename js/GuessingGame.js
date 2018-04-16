@@ -138,7 +138,7 @@ $(document).ready(function() {
         $('#title').text("Play the Guessing Game!");
         $('#subtitle').text("Guess a number between 1 and 100!");
         $('.guess').text('-');
-        $('#hint', '#submit').prop('disabled', false);
+        $('#hint, #submit').prop('disabled', false);
 
     })
 });
